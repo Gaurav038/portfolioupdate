@@ -5,8 +5,12 @@ import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
 import ReactImg from '../public/assets/skills/react.png';
 import Github from '../public/assets/skills/github1.png';
-import Firebase from '../public/assets/skills/firebase.png';
+import Git from '../public/assets/skills/git.png';
 import NextJS from '../public/assets/skills/nextjs.png'
+import Mongo from '../public/assets/skills/mongo.png'
+import Node from '../public/assets/skills/node.png'
+import Redux from '../public/assets/skills/redux.png'
+import Tailwind from '../public/assets/skills/tailwind.png'
 
 const Skills = () => {
   return (
@@ -60,10 +64,30 @@ const Skills = () => {
           <div style={{ backgroundColor: `#ecf0f3` }} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Firebase} width='64px' height='64px' alt='/' />
+                <Image src={Mongo} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+                <h3>Mongo DB</h3>
+              </div>
+            </div>
+          </div>
+          <div style={{ backgroundColor: `#ecf0f3` }} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Node} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>NodeJs</h3>
+              </div>
+            </div>
+          </div>
+          <div style={{ backgroundColor: `#ecf0f3` }} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Git} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Git</h3>
               </div>
             </div>
           </div>
@@ -84,6 +108,26 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+          <div style={{ backgroundColor: `#ecf0f3` }} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Redux} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Redux</h3>
+              </div>
+            </div>
+          </div>
+          <div style={{ backgroundColor: `#ecf0f3` }} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Tailwind} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Tailwind</h3>
               </div>
             </div>
           </div>

@@ -1,9 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/first.png';
-import cryptoImg from '../public/assets/projects/second.png'
-import netflixImg from '../public/assets/projects/third.png'
+import algo from '../public/assets/projects/first.png';
+import Ecom from '../public/assets/projects/second.png'
+import movie from '../public/assets/projects/third.png'
 import ProjectItem from './ProjectItem.jsx';
 
 const Projects = () => {
@@ -14,28 +12,27 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-2 gap-8'> 
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Ecommerce-Website'
+            backgroundImg={Ecom}
+            projectUrl='/ecom'
+            tech='MERN Stack'
+
           />
-          <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+           <ProjectItem
+            title='MOVIE WEBSITE'
+            backgroundImg={movie}
+            projectUrl='/movie'
             tech='React JS'
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            title='Algorithm Visualizer'
+            backgroundImg={algo}
+            projectUrl='/algo'
             tech='React JS'
-
           />
-        
         </div>
       </div>
     </div>

@@ -9,11 +9,10 @@ import ContactImg from '../public/assets/profile_update.jpg';
 const Contact = () => {
   return (
     <div id='contact' className='w-full'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+      <div className='max-w-[1240px]px-2 py-16 w-full '>
+        <p className='text-xl tracking-widest px-4 mt-8 uppercase text-[#5651e5]'>
           Contact
         </p>
-        <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -26,8 +25,8 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
+                <h2 className='py-2'>Gaurav Singh</h2>
+                <p>Full Stack Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
@@ -37,7 +36,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/gaurav-singh-b2277a1a5/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -46,7 +45,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/Gaurav038'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -54,11 +53,7 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link legacyBehavior href='/resume'>
+                  <Link legacyBehavior href='/contact'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
@@ -73,11 +68,7 @@ const Contact = () => {
           {/* right */}
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
-              <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
-                method='POST'
-                encType='multipart/form-data'
-              >
+              <form>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
