@@ -5,7 +5,7 @@ const experiences = [
       company_name: "SkyGoal® Inc",
       icon: "/company.png",
       iconBg: "#383E56",
-      date: "Apr 2023 - Present",
+      date: "Apr 2023 - June 2023",
       points: [
         "Developing and maintaining web applications using React.js, Nodejs, mongoDB and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

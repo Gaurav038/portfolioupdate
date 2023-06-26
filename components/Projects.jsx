@@ -14,7 +14,7 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'> 
           <ProjectItem
-            title='Ecommerce-Website'
+            title='Multiple-Vender Ecommerce'
             backgroundImg={Ecom}
             projectUrl='/ecom'
             tech='MERN Stack'

@@ -17,8 +17,8 @@ const crypto = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Ecommerce-Website</h2>
-          <h3>React / Nodejs / MongoDB / Express</h3>
+          <h2 className='py-2'>Multiple-Vender Ecommerce-Website</h2>
+          <h3>React / Nodejs / MongoDB / Express / Socket.io / Redux</h3>
         </div>
       </div>
 
@@ -29,20 +29,25 @@ const crypto = () => {
           <p>
             I built this app to demonstrate knowledge working in MERN stack and
             accessing API endpoints. This app was built using frontend in React JS and is
-            Backend on Nodejs. 
-            Users are able to create a new account using their email address and can then sign in to Buy, Add
-            to cart,reset forget password and Review the products .This site also has a admin area to add his own custom Products,It also support
-            SignUp, Login, Search, Filter and Authentication .
+            Backend on Nodejs. <br />
+            <br />
+            • Developed this user-friendly Ecommerce website, with advanced functionalities such as messaging,
+            product reviews, buy, adding items to cart, and support for multiple sellers. <br />
+            • Optimized performance by incorporating lazy loading, resulting in a 33% reduction in initial page load
+            time. <br />
+            • Achieved 100% reduction in unauthorized access incidents by integrating JWT and Bcrypt for secure
+            user authentication and authorization. <br />
+
           </p>
           <a
-            href='https://github.com/Gaurav038/e-com_frontEnd'
+            href='https://github.com/Gaurav038/Eshop-Market-Frontend'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://e-com-front-end.vercel.app/'
+            href='https://eshop-market-frontend.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >

@@ -145,7 +145,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <Link
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/gaurav-singh-b2277a1a5/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -154,7 +154,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  href='https://github.com/fireclint'
+                  href='https://github.com/Gaurav038'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -162,15 +162,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </Link>
-                <Link href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
+                <Link href='/contact'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'

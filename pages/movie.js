@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/second.png';
+import cryptoImg from '../public/assets/projects/third.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
