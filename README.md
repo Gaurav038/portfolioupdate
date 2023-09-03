@@ -1,38 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Portfolio Project
 
-## Getting Started
+[![Portfolio Demo](https://img.shields.io/badge/View-Demo-blue)](https://iam-devesh.tech/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green)](https://github.com/MehraDevesh2022/portFolio)
 
-First, run the development server:
+An interactive portfolio website built using React, Material-UI, and EmailJS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+---
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Front-End:** React, Material-UI
+- **Contact Form:** EmailJS
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
+## Demo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+https://github.com/MehraDevesh2022/portFolio/assets/96515074/baabc600-188e-445c-bd1f-bff1425ea55b
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/MehraDevesh2022/portFolio.git
+
+    cd portFolio
+    ```
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+
+   ```bash
+    npm start
+    ```
+## EmailJS Setup
+    
+1. Register for an account on [EmailJS](https://www.emailjs.com/) if you haven't already.
+2. Create a new service and template for your contact form.
+3. In your project's `.env` file, add the following values with your EmailJS information:
+
+    ```bash
+     VITE_SERVICE_ID= ##############
+     VITE_TEMPLATE_ID=##############
+     VITE_PUBLIC_KEY=##############
+
+    ```
+
+
+
+
+    **Note:** If you encounter any issues during deployment due to dependency conflicts or errors, feel free to reach out for assistance. I'm here to help!
+
+     ---
+     ## Contributing
+
+    Contributions are always welcome! Feel free to open a new PR for any changes to the repository. 
+
+     ---
+    ** Open to exciting opportunities as a Front-End / Back-End / Full Stack Developer. Let's connect! **
+      
+    **Connect with me on** <br>
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/devesh-mehra-2022/) 
+    [![Portfolio](https://img.shields.io/badge/Portfolio-Website-green)](https://iam-devesh.tech/) 
