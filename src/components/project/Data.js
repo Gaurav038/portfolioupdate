@@ -1,21 +1,9 @@
-import one from "../../assets/Data01/01.jpg";
-import two from "../../assets/Data01/02.png";
-import three from "../../assets/Data01/03.jpg";
-import four from "../../assets/Data01/04.png";
-import five from "../../assets/Data01/05.png";
-import six from "../../assets/Data01/06.png";
-import seven from "../../assets/Data01/07.png";
-import eight from "../../assets/Data01/seven.svg";
-import nine from "../../assets/Data01/15.jpg";
-import Ten from "../../assets/Data01/six.svg";
-import Eleven from "../../assets/Data01/08.png";
-import Twelve from "../../assets/Data01/09.jpg";
-import Thirteen from "../../assets/Data01/10.jpg";
-import Fourteen from "../../assets/Data01/11.png";
-import Fifteen from "../../assets/Data01/12.png";
-import SixTeen from "../../assets/Data01/13.png";
-import Seventeen from "../../assets/Data01/14.jpg";
-import Eightteen from "../../assets/Data01/18.png";
+import one from "../../assets/Data01/1.png";
+import two from "../../assets/Data01/2.png";
+import three from "../../assets/Data01/3.png";
+import four from "../../assets/Data01/4.png";
+import five from "../../assets/Data01/5.png";
+
 
 export const projectsData = [
   {
@@ -33,7 +21,7 @@ export const projectsData = [
     ],
     code: "https://github.com/Gaurav038/Eshop-Market-Frontend",
     demo: "https://eshop-market-frontend.vercel.app/",
-    image: one,
+    image: two,
   },
   {
     id: 2,
@@ -49,17 +37,27 @@ export const projectsData = [
     ],
     code: "https://github.com/Gaurav038/movie_app",
     demo: "https://movie-app-sand-tau.vercel.app/",
-    image: two,
+    image: four,
   },
   {
-    id: 4,
+    id: 3,
     projectName: "ALGORITHM VISUALIZER",
     projectDesc:
       "Web app that visualizes various algorithms like bubble, insertion, selection, seive algorithm and n-queen problem etc.",
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     code: "https://github.com/Gaurav038/movie_app",
     demo: "https://lucky-begonia-b6285c.netlify.app/#/",
-    image: four,
+    image: one,
+  },
+  {
+    id: 4,
+    projectName: "AIRBNB CLONE FULL STACK",
+    projectDesc:
+      "Developed this user-friendly Full Stack Hotel Booking website,AIRBNB Clone with advanced functionalities such as hotel booking, hotel register, user login and signUp and searching.",
+    tags: ["NextJs", "Prisma", "JavaScript", "next-auth", "tailwindcss", "typescript"],
+    code: "https://github.com/Gaurav038/hotelbooking-Next",
+    demo: "https://hotelbooking-next.vercel.app/",
+    image: five,
   }
 ];
 
