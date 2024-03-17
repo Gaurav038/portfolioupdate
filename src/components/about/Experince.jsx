@@ -10,8 +10,8 @@ function Experience() {
       {
         id: 1,
         company: "JellyBean.",
-        jobtitle: "SDE Intern",
-        startYear: "july 2023 ",
+        jobtitle: "Software Development Engineer",
+        startYear: "june 2023 ",
         endYear: " present",
 
       },
@@ -20,27 +20,21 @@ function Experience() {
         company: "SkyGoal® Inc.",
         jobtitle: "Full Stack Developer Intern",
         startYear: "Apr 2023 ",
-        endYear: " June 2023",
-        links:
-          "https://drive.google.com/file/d/1WExV0iHcNiVC8No0Y6f5PMmRDJ-lrtTc/view?usp=drive_link",
+        endYear: " June 2023"
       },
       {
         id: 3,
         company: "NEONFLAKE ENTERPRISES (OPC) PVT LTD",
         jobtitle: "SDE Intern",
         startYear: "Feb 2022 ",
-        endYear: " July 2022",
-        links:
-          "https://drive.google.com/file/d/1PDnFM5IYxz-KcsdFtLcNCOWe9kioRnxr/view?usp=sharing",
+        endYear: " July 2022"
       },
       {
         id: 4,
         company: "NPSEI",
         jobtitle: "Frontend Developer Intern",
         startYear: "Aug 2021 ",
-        endYear: " Nov 2021",
-        links:
-          "https://drive.google.com/file/d/1UQsz7aq8ZtF_WrgZNMQlaNK1xA-kjO15/view?usp=drive_link",
+        endYear: " Nov 2021"
       },
     ];
 

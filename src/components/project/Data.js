@@ -3,6 +3,7 @@ import two from "../../assets/Data01/2.png";
 import three from "../../assets/Data01/3.png";
 import four from "../../assets/Data01/4.png";
 import five from "../../assets/Data01/5.png";
+import seven from "../../assets/Data01/7.png";
 
 
 export const projectsData = [
@@ -21,7 +22,22 @@ export const projectsData = [
     ],
     code: "https://github.com/Gaurav038/Eshop-Market-Frontend",
     demo: "https://eshop-market-frontend.vercel.app/",
-    image: two,
+    image: three,
+  },
+  {
+    id: 1,
+    projectName: "Task Management System",
+    projectDesc:
+      "Developed a web-based task management system} that enables teams to organize tasks, collaborate in real-time, and track project progress efficiently.",
+    tags: [
+      "NextJs",
+      "Typescript",
+      "MongoDB",
+      "Prisma",
+    ],
+    code: "https://github.com/Gaurav038/saasproject",
+    demo: "https://saasproject-bay.vercel.app/",
+    image: seven,
   },
   {
     id: 2,

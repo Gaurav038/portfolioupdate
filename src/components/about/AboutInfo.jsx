@@ -53,10 +53,7 @@ const AboutInfo = () => {
               GAURAV SINGH
             </span>{" "}
             from Uttarakhand,India. I did my B.Tech in Computer Science and
-            Engineering from{" "}
-            <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              NPSEI, Uttarakhand
-            </span>{" "}
+            Engineering.
             and currently I'm looking for{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               {" "}

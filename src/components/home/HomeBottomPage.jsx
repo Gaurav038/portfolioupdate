@@ -1,10 +1,6 @@
 import React from "react";
 import avatar from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { SiLinktree } from "react-icons/si";
-import { Button } from "@mui/material";
-
-const resumeURL ="https://drive.google.com/file/d/15s74dvQI05vIhZwxYgKrSAHX9eKfYt1T/view?usp=drive_link";
 
 const HomeBottomPage = () => {
 
@@ -21,7 +17,7 @@ const HomeBottomPage = () => {
           <p>
             I am Gaurav Singh, A Computer Science and Engineering Graduate with
             good, <span style={{ color: "#32CD30" }}>problem solving </span>
-            skills & passionate about Full-stack development
+            skills & passionate about Full-stack development and currently working as a Software Development Engineer. 
           </p>
           <br />
           <p>
